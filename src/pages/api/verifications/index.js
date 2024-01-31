@@ -1,6 +1,6 @@
 export const runtime = 'edge';
-const API_URL = process.env.PROVEN_ISSUER_API_URL;
-const API_KEY = process.env.PROVEN_ISSUER_API_KEY;
+const API_URL = process.env.VERIFIER_API_URL;
+const API_KEY = process.env.VERIFIER_API_KEY;
 const schemas = [
   {
     schema_id: 'QNetK7HNqt4mdmWRKGxzrZ:2:GHG_Report:1.0',

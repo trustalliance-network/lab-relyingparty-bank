@@ -1,6 +1,6 @@
 
-const API_URL = process.env.PROVEN_ISSUER_API_URL;
-const API_KEY = process.env.PROVEN_ISSUER_API_KEY;
+const API_URL = process.env.VERIFIER_API_URL;
+const API_KEY = process.env.VERIFIER_API_KEY;
 
 export const runtime = 'edge';
 const headers = {
