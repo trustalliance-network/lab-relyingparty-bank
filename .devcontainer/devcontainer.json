@@ -1,0 +1,16 @@
+{
+  "name": "tANZ Node.js",
+
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+
+  "forwardPorts": [3000],
+
+  "portsAttributes": {
+    "3000": {
+      "label": "Server Started",
+      "onAutoForward": "notify"
+    }
+  },
+
+  "postCreateCommand": "npm install && npm run dev"
+}

@@ -1,14 +1,30 @@
+# tANZ TANZ hands on lab
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### 1. Create a new codespace from this repository
+
+![alt text](docs/codespaces_template.png "Title")
+
+### 2. The codespace will attempt to install dependencies and start the development server
+
+![alt text](docs/codespaces_setup.png "Title")
+
+### 3. Create a new terminal and install dependencies
+
+![alt text](docs/codespaces_install.png "Title")
+
+### 4. Start the development server
+![alt text](docs/codespaces_run.png "Title")
+
+### 5. Open The URL provided with your browser to see the result.
+![alt text](docs/codespaces_ports.png "Title")
+
+### 6. Edit the `.env` and fill in the Api key with the one provided by TANZ
+
+### 7. Re-open the application, it should automaatically reload and you can issue your credential
 
